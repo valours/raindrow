@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Header from './components/Header';
-import CounterAlpha from './components/CounterAlpha';
-import TodoAlpha from './components/TodoAlpha';
+import CounterAlpha from './containers/CounterAlpha';
+import TodoAlpha from './containers/TodoAlpha';
 import './App.css';
 
 class App extends Component {

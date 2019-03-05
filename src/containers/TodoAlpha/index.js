@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import isEmpty from 'lodash/isEmpty';
 
-import Square from '../Square';
+import Square from '../../components/Square';
 import todoHook from '../../hooks/todo';
 
 const Card = styled(Square)``

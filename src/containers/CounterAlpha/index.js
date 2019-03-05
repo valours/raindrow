@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import Square from '../Square';
+import Square from '../../components/Square';
 import counterHook from '../../hooks/counter';
 
 const Card = styled(Square)`
