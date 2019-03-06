@@ -8,4 +8,8 @@ styles.Title = styled.h1`
   padding: 10px;
 `;
 
+styles.Components = styled.div`
+  display: flex
+`
+
 export default styles

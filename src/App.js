@@ -12,11 +12,13 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
-        <Section title='Section'>
+        <Section title='Counter'>
           <CounterAlpha />
           <CounterBeta />
         </Section>
-        <TodoAlpha />
+        <Section title="Todos">
+          <TodoAlpha />
+        </Section>
       </div>
     );
   }
